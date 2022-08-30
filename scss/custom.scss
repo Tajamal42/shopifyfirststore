@@ -1,5 +1,6 @@
 $color-red: red;
+$color-green: green;
 
-body, header{
-    background-color: $color-red;
+body, .site-header{
+    background-color: $color-green;
 }
