@@ -96,7 +96,9 @@
         <tr>
           <td><img src="{{ product.featured_image | img_url: '300x300' }}" alt="{{product.featured_image.alt}}" /></td>
         </tr>
+        <tr>
           <td><h2>{{ product.title }}</h2></td>
+        </tr>
           <td>
             <form action="/cart/add" method="post" enctype="multipart/form-data">
             <select name="id">
