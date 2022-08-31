@@ -1,5 +1,7 @@
 <h1>Hello Tajamal is Here</h1>
-{{ all_products['featured'].title }}
+{% for product in collections.frontpage.products limit: 12 %}
+  {{ product.title }}
+{% endfor %}
 {% schema %}
 {
   "name": "compare products",
