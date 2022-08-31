@@ -110,7 +110,16 @@
             <input type="submit" name="add" id="add" value="Add to Cart" class="button">
             </form>
           </td>
-          <td></td>
+          <td>
+            <span aria-hidden="true">—</span>
+            {%- if product.price_varies -%}
+              <span class="visuallyhidden">Starting at</span>
+              {{ product.price_min | money_without_trailing_zeros }}
+              <span aria-hidden="true">+</span>
+            {%- else -%}
+              {{ product.price | money_without_trailing_zeros }}
+            {%- endif -%}
+          </td>
           <td></td>
         </tr>
       </table>
