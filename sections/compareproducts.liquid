@@ -1,6 +1,6 @@
 <div class="header--middle-left header--mobile-center page-width">
 {% for product in collections.frontpage.products limit: 12 %}
-  <img src="{{ product.featured_image | img_url: '600x600' }}" alt="{{product.featured_image.alt}}" />
+  <img src="{{ product.featured_image | img_url: '300x300' }}" alt="{{product.featured_image.alt}}" />
   <h2>{{ product.title }}</h2>
   {{ product.description }}
 <form action="/cart/add" method="post" enctype="multipart/form-data">
