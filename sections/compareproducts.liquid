@@ -37,7 +37,18 @@
     </tr>
     <tr class="coder-comparable-highlight" style="display: table-row;">
       <td style="display: table-cell;">Price</td>
-      <td style="display: table-cell;">{{ product.price }}</td>
+      <td style="display: table-cell;">
+        <span aria-hidden="true">—</span>
+            {%- if product.price_varies -%}
+              <span class="visuallyhidden">Starting at</span>
+              {{ product.price_min | money_without_trailing_zeros }}
+              <span aria-hidden="true">+</span>
+            {%- else -%}
+              {{ product.price | money_without_trailing_zeros }}
+            {%- endif -%}
+          </p>
+          
+      </td>
     </tr>
     <tr class="coder-comparable-highlight" style="display: table-row;">
       <td style="display: table-cell;">Pod Compability</td>
@@ -69,7 +80,7 @@
   {% endfor %}
   </tbody>
 </table>
-<h2>{{ product.metafields.global.delivery_time }}</h2>
+<h2>{{ product.metafields.global.DeliveryTime }}</h2>
   
 </div>
 
