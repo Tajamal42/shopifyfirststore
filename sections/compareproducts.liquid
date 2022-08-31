@@ -81,7 +81,10 @@
   </tbody>
 </table>
 <h2>{{ product.metafields.global.DeliveryTime }}</h2>
-  
+ {% for field in resource.metafields.namespace %}
+  {{ field | metafield_tag }}
+{% endfor %}
+ 
 </div>
 
 
