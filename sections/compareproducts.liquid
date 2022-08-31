@@ -1,5 +1,5 @@
 <div class="header--middle-left header--mobile-center page-width">
-{% for product in collections.frontpage.products limit: 12 %}
+{% for product in collection.products %}
   {{ product.image | image_tag }}
   <h2>{{ product.title }}</h2>
   {{ product.description }}
