@@ -60,16 +60,12 @@
       <td style="display: table-cell;">Yes</td>
     </tr>
     <tr class="pyr-compare-available" style="display: table-row;">
-      <td style="display: table-cell;">Available</td><td style="display: table-cell;">In Stock</td>
-      <td style="display: table-cell;">In Stock</td><td style="display: table-cell;">In Stock</td>
+      
+      <td style="display: table-cell;">Available</td>
+      {%- if product.metafields.instructions != blank -%}
+      <td style="display: table-cell;">{{ field | first }}</td>
+      {%- endif -%}      
     </tr>
-    {%- if product.metafields.instructions != blank -%}
-  <ul>
-    {%- for field in product.metafields.instructions -%}
-      <li>{{ field | first }}: {{ field | last }}</li>
-    {%- endfor -%}
-  </ul>
-{%- endif -%}
   {% endfor %}
   </tbody>
 </table>
