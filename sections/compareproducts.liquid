@@ -40,18 +40,18 @@
         </tr>
         <tr>
           <td>
-            <h2>Price: <span aria-hidden="true">—</span>
+            <h4>Price: <span aria-hidden="true">—</span>
             {%- if product.price_varies -%}
               <span class="visuallyhidden">Starting at</span>
               {{ product.price_min | money_without_trailing_zeros }}
               <span aria-hidden="true">+</span>
             {%- else -%}
               {{ product.price | money_without_trailing_zeros }}
-            {%- endif -%}</h2>
+            {%- endif -%}</h4>
           </td>
         </tr>
         <tr>
-          <td>Pod Compability</td>
+          <td><h3></h3>Pod Compability</td>
         </tr>
         <tr>
           <td>My K-Cup Capability</td>
