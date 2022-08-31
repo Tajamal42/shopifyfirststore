@@ -7,6 +7,10 @@
     column-gap: 10px;
     row-gap: 1em;
   }
+  h4{
+    padding:0px;
+    margin:0px;
+  }
 </style>
 
   <div class="wrapper">
@@ -39,14 +43,14 @@
           </td>
         </tr>
         <tr style="background-color:gray">
-          <td>
+          <td style="color:white;">
             <h4>Price: <span aria-hidden="true">—</span>
             {%- if product.price_varies -%}
               <span class="visuallyhidden">Starting at</span>
               {{ product.price_min | money_without_trailing_zeros }}
               <span aria-hidden="true">+</span>
             {%- else -%}
-              <span style="color:white;">{{ product.price | money_without_trailing_zeros }}</span>
+              <span>{{ product.price | money_without_trailing_zeros }}</span>
             {%- endif -%}</h4>
           </td>
         </tr>
@@ -54,13 +58,13 @@
           <td><h4>Pod Compability: </h4></td>
         </tr>
         <tr style="background-color:gray">
-          <td><h4>My K-Cup Capability: </h4></td>
+          <td style="color:white;"><h4>My K-Cup Capability: </h4></td>
         </tr>
         <tr>
           <td><h4>Brew Size: </h4></td>
         </tr>
         <tr style="background-color:gray">
-          <td><h4>Water Capability: <span style="color:white;">{{ product.metafields.custom.water_capability }}</span></h4></td>
+          <td style="color:white;"><h4>Water Capability: <span>{{ product.metafields.custom.water_capability }}</span></h4></td>
         </tr>
         <tr>
           <td><h4>Delivery Time:</h4> <b>{{ product.metafields.custom.delivery_time }}</b></td>
