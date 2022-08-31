@@ -10,6 +10,59 @@
 </style>
 
   <div class="wrapper">
+    <div>
+      <table>
+        <tr>
+          <td><img src="{{ product.featured_image | img_url: '300x300' }}" alt="{{product.featured_image.alt}}" /></td>
+        </tr>
+        <tr>
+          <td><h2>{{ product.title }}</h2></td>
+        </tr>
+        <tr>
+          <td>
+            <form action="/cart/add" method="post" enctype="multipart/form-data">
+            <select name="id">
+            {% for variant in product.variants %}
+            {% if variant.available == true %}
+            <option value="{{variant.id}}"> {{ variant.title }} for {{ variant.price | money_with_currency }}</option>
+            {% else %}
+            <option disabled="disabled"> {{ variant.title }} - sold out!</option>
+            {% endif %}
+            {% endfor %}
+            </select>
+            <input type="submit" name="add" id="add" value="Add to Cart" class="button">
+            </form>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <span aria-hidden="true">—</span>
+            {%- if product.price_varies -%}
+              <span class="visuallyhidden">Starting at</span>
+              {{ product.price_min | money_without_trailing_zeros }}
+              <span aria-hidden="true">+</span>
+            {%- else -%}
+              {{ product.price | money_without_trailing_zeros }}
+            {%- endif -%}
+          </td>
+        </tr>
+        <tr>
+          <td>Pod Compability</td>
+        </tr>
+        <tr>
+          <td>My K-Cup Capability</td>
+        </tr>
+        <tr>
+          <td>Brew Size</td>
+        </tr>
+        <tr>
+          <td>Water Capability</td>
+        </tr>
+        <tr>
+          <td>Delivery Time: {{ product.metafields.custom.delivery_time }}</td>
+        <tr>
+      </table>
+    </div>
     {% for product in collections.all.products %}
     <div>
       <table>
