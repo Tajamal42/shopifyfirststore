@@ -52,10 +52,11 @@
           </div>
         </tr>
         <tr>
+          <div>
       <td>
     
     {% for product in collections.all.products %}
-    <div>
+    
       <table>
         <tr>
           <td><img src="{{ product.featured_image | img_url: '300x300' }}" alt="{{product.featured_image.alt}}" /></td>
@@ -107,10 +108,11 @@
           <td>Delivery Time: {{ product.metafields.custom.delivery_time }}</td>
         <tr>
       </table>
-    </div>
+    
     {% endfor %}
-  </div>
+  
           </td>
+            </div>
         </tr>
       </table>
     
