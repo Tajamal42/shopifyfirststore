@@ -99,6 +99,7 @@
         <tr>
           <td><h2>{{ product.title }}</h2></td>
         </tr>
+        <tr>
           <td>
             <form action="/cart/add" method="post" enctype="multipart/form-data">
             <select name="id">
@@ -113,6 +114,8 @@
             <input type="submit" name="add" id="add" value="Add to Cart" class="button">
             </form>
           </td>
+        </tr>
+        <tr>
           <td>
             <span aria-hidden="true">—</span>
             {%- if product.price_varies -%}
@@ -123,12 +126,22 @@
               {{ product.price | money_without_trailing_zeros }}
             {%- endif -%}
           </td>
-          <td>Pod Compability</td>
-          <td>My K-Cup Capability</td>
-          <td>Brew Size</td>
-          <td>Water Capability</td>
-          <td>Delivery Time: {{ product.metafields.custom.delivery_time }}</td>
         </tr>
+        <tr>
+          <td>Pod Compability</td>
+        </tr>
+        <tr>
+          <td>My K-Cup Capability</td>
+        </tr>
+        <tr>
+          <td>Brew Size</td>
+        </tr>
+        <tr>
+          <td>Water Capability</td>
+        </tr>
+        <tr>
+          <td>Delivery Time: {{ product.metafields.custom.delivery_time }}</td>
+        <tr>
       </table>
     </div>
     {% endfor %}
