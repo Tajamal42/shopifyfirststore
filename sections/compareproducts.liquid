@@ -71,13 +71,10 @@
       <td style="display: table-cell;">Yes</td>
     </tr>
     <tr class="pyr-compare-available" style="display: table-row;">
-      
-      <td style="display: table-cell;">Available</td>
-      {%- if product.metafields.instructions != blank -%}
-      <td style="display: table-cell;">{{ field | first }}</td>
-      {%- endif -%}      
+      <td style="display: table-cell;">Delivery Time</td>
+      <td style="display: table-cell;">{{ product.metafields.custom.delivery_time }}</td> 
     </tr>
-  <h2>{{ product.metafields.custom.delivery_time }}</h2>
+  <h2></h2>
   {% endfor %}
   </tbody>
 </table>
