@@ -21,13 +21,10 @@
 
 <table class="pyr-compare-table">
   <tbody>
+    {% for product in collections.frontpage.products limit: 12 %}
     <tr class="pyr-compare-img">
       <td style="display: table-cell;">
       </td>
-      <td style="display: table-cell;">
-        
-      </td>
-      
     </tr>
       <tr class="pyr-compare-view">
         
@@ -75,6 +72,7 @@
       <td style="display: table-cell;">Available</td><td style="display: table-cell;">In Stock</td>
       <td style="display: table-cell;">In Stock</td><td style="display: table-cell;">In Stock</td>
     </tr>
+  {% endfor %}
   </tbody>
 </table>
 {% schema %}
