@@ -1,6 +1,6 @@
-<h1>Hello Tajamal is Here</h1>
+<div class="header header--middle-left header--mobile-center page-width header--has-menu">
 {% for product in collections.frontpage.products limit: 12 %}
-  <img src="" />
+  <img src="{{ product.img }}" />
   <h2>{{ product.title }}</h2>
   {{ product.description }}
 <form action="/cart/add" method="post" enctype="multipart/form-data">
@@ -16,6 +16,7 @@
 <input type="submit" name="add" id="add" value="Add to Cart" class="button">
 </form>
 {% endfor %}
+</div>
 {% schema %}
 {
   "name": "compare products",
