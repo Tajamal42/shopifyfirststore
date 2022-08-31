@@ -23,30 +23,23 @@
         </tr>
         <tr>
           <td>
-            <span aria-hidden="true">—</span>
-            {%- if product.price_varies -%}
-              <span class="visuallyhidden">Starting at</span>
-              {{ product.price_min | money_without_trailing_zeros }}
-              <span aria-hidden="true">+</span>
-            {%- else -%}
-              {{ product.price | money_without_trailing_zeros }}
-            {%- endif -%}
+            <h2>Price</h2>
           </td>
         </tr>
         <tr>
-          <td>Pod Compability</td>
+          <td><h2>Pod Compability</h2></td>
         </tr>
         <tr>
-          <td>My K-Cup Capability</td>
+          <td><h2>My K-Cup Capability</h2></td>
         </tr>
         <tr>
-          <td>Brew Size</td>
+          <td><h2>Brew Size</h2></td>
         </tr>
         <tr>
-          <td>Water Capability</td>
+          <td><h2>Water Capability</h2></td>
         </tr>
         <tr>
-          <td>Delivery Time: {{ product.metafields.custom.delivery_time }}</td>
+          <td><h2>Delivery Time:</h2></td>
         <tr>
       </table>
     </div>
