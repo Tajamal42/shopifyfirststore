@@ -1,5 +1,6 @@
 <h1>Hello Tajamal is Here</h1>
 {% for product in collections.frontpage.products limit: 12 %}
+  <img src="" />
   <h2>{{ product.title }}</h2>
   {{ product.description }}
 <form action="/cart/add" method="post" enctype="multipart/form-data">
