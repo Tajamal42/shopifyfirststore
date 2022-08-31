@@ -23,7 +23,7 @@
         </tr>
         <tr>
           <td>
-            <h2>Price: </h2>
+            
             <form action="/cart/add" method="post" enctype="multipart/form-data">
             <select name="id">
             {% for variant in product.variants %}
@@ -40,14 +40,14 @@
         </tr>
         <tr>
           <td>
-            <span aria-hidden="true">—</span>
+            <h2>Price: <span aria-hidden="true">—</span>
             {%- if product.price_varies -%}
               <span class="visuallyhidden">Starting at</span>
               {{ product.price_min | money_without_trailing_zeros }}
               <span aria-hidden="true">+</span>
             {%- else -%}
               {{ product.price | money_without_trailing_zeros }}
-            {%- endif -%}
+            {%- endif -%}</h2>
           </td>
         </tr>
         <tr>
