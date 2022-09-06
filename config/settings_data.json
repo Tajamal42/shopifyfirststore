@@ -10,8 +10,8 @@
     "colors_background_1": "#ffffff",
     "gradient_background_1": "",
     "colors_background_2": "#f3f3f3",
-    "colors_gold_m": "#f3f3f3",
     "gradient_background_2": "",
+    "colors_gold_m": "#f3f3f3",
     "type_header_font": "assistant_n4",
     "heading_scale": 100,
     "type_body_font": "assistant_n4",
@@ -128,7 +128,7 @@
             "settings": {
               "text": "FREE 123 Micro Stroke Brush, when you purchase a Creamades Brow Pomade!",
               "text_alignment": "center",
-              "color_scheme": "background-2",
+              "color_scheme": "gold_m",
               "link": ""
             }
           }
