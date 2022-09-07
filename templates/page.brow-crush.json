@@ -55,7 +55,7 @@
         "1662517807cf2a0d3a-1": {
           "type": "text",
           "settings": {
-            "text": "<p>The top scorer of Brow Code's new Brow Crush game will win the newest release from Apple -<br\/>the iPhone 14!<\/p>",
+            "text": "<p>The top scorer of <strong>Brow Code's new Brow Crush game <\/strong>will <strong>win the newest release from Apple -<br\/>the iPhone 14!<\/strong><\/p>",
             "text_style": "body"
           }
         },
