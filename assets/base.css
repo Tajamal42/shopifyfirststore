@@ -327,7 +327,7 @@ body,
 .color-background-2,
 .color-inverse,
 .color-accent-1,
-.color-accent-2 {
+.color-accent-2, .color-gold_m {
   color: rgba(var(--color-foreground), 0.75);
   background-color: rgb(var(--color-background));
 }
