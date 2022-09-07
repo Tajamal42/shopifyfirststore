@@ -1466,6 +1466,12 @@
         "id": "rich_text",
         "label": "RichText Area",
         "default": "<p>Hey Brother<\/p>"
+      },
+      {
+        "type": "checkbox",
+        "id": "true_name",
+        "label": "check my name",
+        "default": true
       }
     ]
   },
