@@ -1,17 +1,17 @@
 {
   "current": {
     "colors_solid_button_labels": "#ffffff",
-    "colors_accent_1": "#686868",
+    "colors_accent_1": "#121212",
     "gradient_accent_1": "",
     "colors_accent_2": "#334fb4",
     "gradient_accent_2": "",
-    "colors_text": "#030303",
+    "colors_text": "#121212",
     "colors_outline_button_labels": "#121212",
-    "colors_background_1": "#f3f3f3",
+    "colors_background_1": "#ffffff",
     "gradient_background_1": "",
-    "colors_background_2": "#121212",
+    "colors_background_2": "#f3f3f3",
+    "colors_gold_m": "#c3a355",
     "gradient_background_2": "",
-    "colors_gold_m": "#334fb4",
     "type_header_font": "assistant_n4",
     "heading_scale": 100,
     "type_body_font": "assistant_n4",
@@ -118,8 +118,6 @@
     "predictive_search_enabled": true,
     "predictive_search_show_vendor": false,
     "predictive_search_show_price": false,
-    "text_area": "<h1>My Name is Tajamal Hussain<\/h1>",
-    "rich_text": "<p><strong>Hey <\/strong>Brother<\/p>",
     "currency_code_enabled": true,
     "sections": {
       "announcement-bar": {
@@ -130,7 +128,7 @@
             "settings": {
               "text": "FREE 123 Micro Stroke Brush, when you purchase a Creamades Brow Pomade!",
               "text_alignment": "center",
-              "color_scheme": "gold_m",
+              "color_scheme": "background-2",
               "link": ""
             }
           }
@@ -144,10 +142,10 @@
       "header": {
         "type": "header",
         "settings": {
-          "color_scheme": "inverse",
-          "logo": "shopify:\/\/shop_images\/browcodelogo.png",
+          "color_scheme": "background-1",
+          "logo": "shopify:\/\/shop_images\/logo.png",
           "logo_width": 250,
-          "logo_position": "top-center",
+          "logo_position": "middle-center",
           "menu": "main-menu",
           "menu_type_desktop": "dropdown",
           "show_line_separator": true,
