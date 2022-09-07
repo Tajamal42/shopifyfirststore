@@ -1464,7 +1464,8 @@
       {
         "type": "richtext",
         "id": "rich_text",
-        "label": "RichText Area"
+        "label": "RichText Area",
+        "default": "<p>Hey Brother<\/p>"
       }
     ]
   },
