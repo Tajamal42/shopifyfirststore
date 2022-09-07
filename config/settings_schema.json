@@ -1460,6 +1460,11 @@
         "type": "textarea",
         "id": "text_area",
         "label": "My Text Area Box"
+      },
+      {
+        "type": "richtext",
+        "id": "rich_text",
+        "label": "RichText Area"
       }
     ]
   },
