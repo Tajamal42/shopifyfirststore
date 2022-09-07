@@ -82,7 +82,8 @@
         "99cc3d7b-dceb-4485-94a9-81d918a95499"
       ],
       "settings": {
-        "height": "adapt",
+        "image": "shopify:\/\/shop_images\/organized-workspace.jpg",
+        "height": "large",
         "desktop_image_width": "medium",
         "layout": "text_first",
         "desktop_content_position": "top",
