@@ -19,10 +19,6 @@
   --gradient-background: var(--gradient-base-background-2);
 }
 
-.announcement-bar__message {
-    color: #fff;
-}
-
 .color-inverse {
   --color-foreground: var(--color-base-background-1);
   --color-background: var(--color-base-text);
