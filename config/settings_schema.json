@@ -88,7 +88,7 @@
         "type": "color",
         "id": "colors_gold_m",
         "default": "#c3a355",
-        "label": "t:settings_schema.colors.settings.colors_gold_m.label"
+        "label": "Gold Color"
       }
     ]
   },
