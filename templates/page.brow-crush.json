@@ -62,15 +62,24 @@
         "1662517807cf2a0d3a-2": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
+            "button_label": "PLAY TO WIN",
             "button_link": ""
+          }
+        },
+        "99cc3d7b-dceb-4485-94a9-81d918a95499": {
+          "type": "caption",
+          "settings": {
+            "caption": "Winner will be announced 23rd September at 10am AEST",
+            "text_style": "subtitle",
+            "text_size": "small"
           }
         }
       },
       "block_order": [
         "1662517807cf2a0d3a-0",
         "1662517807cf2a0d3a-1",
-        "1662517807cf2a0d3a-2"
+        "1662517807cf2a0d3a-2",
+        "99cc3d7b-dceb-4485-94a9-81d918a95499"
       ],
       "settings": {
         "height": "adapt",
