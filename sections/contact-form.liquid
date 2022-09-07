@@ -20,6 +20,8 @@
       {{ settings.text_area }}
     {% if settings.true_name == true %}
       {{ settings.rich_text }}
+    {% else %}
+      <p>Checkbox is disabled</p>
     {%  endif %}
     </div>
     {%- if section.settings.heading != blank -%}
