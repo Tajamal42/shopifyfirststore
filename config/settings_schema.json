@@ -1454,6 +1454,16 @@
     ]
   },
   {
+    "name": "Schema Types",
+    "settings": [
+      {
+        "type": "textarea",
+        "id": "text_area",
+        "label": "My Text Area Box"
+      }
+    ]
+  },
+  {
     "name": "t:settings_schema.currency_format.name",
     "settings": [
       {
