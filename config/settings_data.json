@@ -119,6 +119,7 @@
     "predictive_search_show_vendor": false,
     "predictive_search_show_price": false,
     "text_area": "<h1>My Name is Tajamal Hussain<\/h1>",
+    "rich_text": "<p><strong>Hey <\/strong>Brother<\/p>",
     "currency_code_enabled": true,
     "sections": {
       "announcement-bar": {
