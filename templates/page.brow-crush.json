@@ -95,13 +95,59 @@
         "padding_bottom": 36
       }
     },
-    "166252189449425902": {
-      "type": "custom-liquid",
+    "16625223587c9f8534": {
+      "type": "multicolumn",
+      "blocks": {
+        "1662522358ed5a9862-0": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "1662522358ed5a9862-1": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "1662522358ed5a9862-2": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1662522358ed5a9862-0",
+        "1662522358ed5a9862-1",
+        "1662522358ed5a9862-2"
+      ],
       "settings": {
-        "custom_liquid": "",
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 1,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
         "color_scheme": "background-1",
-        "padding_top": 40,
-        "padding_bottom": 52
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "1662521851b9562beb": {
@@ -109,6 +155,7 @@
       "blocks": {
         "16625218518f1200bf-0": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "Image with text",
             "heading_size": "h1"
@@ -117,12 +164,13 @@
         "16625218518f1200bf-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Swipe the Brow Code cosmetics in any direction to match 3 or more of the same products! Reach the target within a specific number of moves to level up.<\/p>",
             "text_style": "body"
           }
         },
         "16625218518f1200bf-2": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "button_label": "Button label",
             "button_link": ""
@@ -135,8 +183,9 @@
         "16625218518f1200bf-2"
       ],
       "settings": {
-        "height": "adapt",
-        "desktop_image_width": "medium",
+        "image": "shopify:\/\/shop_images\/gameanimation.gif",
+        "height": "large",
+        "desktop_image_width": "large",
         "layout": "image_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
@@ -152,7 +201,7 @@
     "main",
     "166251619935d4d231",
     "1662517807d9785d55",
-    "166252189449425902",
+    "16625223587c9f8534",
     "1662521851b9562beb"
   ]
 }
