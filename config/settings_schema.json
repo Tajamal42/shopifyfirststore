@@ -15,6 +15,11 @@
         "content": "t:settings_schema.colors.settings.header__1.content"
       },
       {
+        "type": "image_picker",
+        "id": "image_background",
+        "label": "Background Image"
+      },
+      {
         "type": "color",
         "id": "colors_solid_button_labels",
         "default": "#FFFFFF",
