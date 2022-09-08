@@ -2974,8 +2974,9 @@ details-disclosure > details {
 }
 
 .section-template--16425776939263__1662517807d9785d55-padding .image-with-text__text-item{
-  position: absolute;
+  position: absolute !important;
   left: 0px;
+  width: 40%;
 }
 
 
