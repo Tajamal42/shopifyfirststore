@@ -237,6 +237,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     {% if request.path contains 'brow-crush' %}
     <style>
     #MainContent {
+      background-image:url('https://cdn.shopify.com/s/files/1/0658/9648/1023/files/bg_6b3a863d-975b-445b-9a91-c00c4374e1e2.gif?v=1662676657'); 
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+      #noclass {
       background-image:url('{{ settings.image_background.src | img_url: 'large' }}'); 
       background-repeat: no-repeat;
       background-size: cover;
