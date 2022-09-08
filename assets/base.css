@@ -2987,6 +2987,14 @@ details-disclosure > details {
     text-shadow: 0px 5px 0px #d1bfa1;
 }
 
+.section-template--16425776939263__1662517807d9785d55-padding .image-with-text__text-item p{
+    color: #000;
+    letter-spacing: -0.5px;
+    font-size: 17px;
+    line-height: 22px;
+    font-weight: 500;
+}
+
 .section-template--16425776939263__1662517807d9785d55-padding .image-with-text__text{
   margin-top: 0rem;
 }
@@ -2998,6 +3006,8 @@ details-disclosure > details {
 .section-template--16425776939263__16626050482bb36349-padding .multicolumn-list__item:only-child {
     max-width: 100% !important;
 }
+
+
 
 
 
