@@ -50,11 +50,6 @@
         "label": "t:settings_schema.colors.settings.colors_accent_2.label"
       },
       {
-        "type": "color",
-        "id": "colors_transparent",
-        "label": "Transparent"
-      },
-      {
         "id": "gradient_accent_2",
         "type": "color_background",
         "label": "t:settings_schema.colors.settings.gradient_accent_2.label"
@@ -86,7 +81,7 @@
       {
         "id": "gradient_background_1",
         "type": "color_background",
-        "label": "t:settings_schema.colors.settings.gradient_background_1.label"
+        "label": "Transparent"
       },
       {
         "type": "color",
