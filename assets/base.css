@@ -3025,6 +3025,10 @@ details-disclosure > details {
 }
 
 .section-template--16425776939263__1662517807d9785d55-padding a.button:hover{
+  padding: 0px;
+    margin: 0px;
+    background-color: none;
+  border: 0px none;
   --border-offset: none;
 }
 
