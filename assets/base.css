@@ -43,6 +43,10 @@
   --gradient-background: rgb(var(--color-base-text));
 }
 
+.color-transparent {
+  --color-background: red;
+}
+
 .color-foreground-outline-button {
   --color-foreground: var(--color-base-outline-button-labels);
 }
