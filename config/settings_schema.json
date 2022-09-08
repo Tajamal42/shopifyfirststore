@@ -8,7 +8,7 @@
     "theme_support_url": "https:\/\/support.shopify.com\/"
   },
   {
-    "name": "Background Image",
+    "name": "Background",
     "settings": [
       {
         "type": "image_picker",
