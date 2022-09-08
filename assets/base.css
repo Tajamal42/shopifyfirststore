@@ -3025,10 +3025,15 @@ details-disclosure > details {
 }
 
 .section-template--16425776939263__1662517807d9785d55-padding a.button:hover{
-  
-   
-  border: 0px none;
-  --border-offset: none;
+  background: url(https://cdn.shopify.com/s/files/1/0658/9648/1023/files/play-btn.png?v=1662616402);
+    border: 0px none;
+    width: 459px;
+    height: 178px;
+    padding: 0px;
+    margin: 0px;
+    background-color: none;
+    text-indent: -9000px;
+    --border-offset: none;
 }
 
 .section-template--16425776939263__16626050482bb36349-padding {
