@@ -232,8 +232,17 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           font-size: 1.6rem;
         }
       }
+      
     {% endstyle %}
-
+    {% if request.path contains 'brow-crush' %}
+    <style>
+    #MainContent {
+    background-image: url({{ 'business-pug-working-on-laptop.jpg' | asset_img_url: 'original' }});
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    </style>
+    {% endif %}
     {{ 'base.css' | asset_url | stylesheet_tag }}
     {{ 'global.css' | asset_url | stylesheet_tag }}
 
