@@ -237,7 +237,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     {% if request.path contains 'brow-crush' %}
     <style>
     #MainContent {
-      background-image:url('{{ settings.image_background.src | img_url: 'original' }}');
+      background-image:url('{{ settings.image_background.src | img_url: 'large' }}');
       background-repeat: no-repeat;
       background-size: cover;
     }
