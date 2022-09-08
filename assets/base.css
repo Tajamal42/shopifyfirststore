@@ -3002,6 +3002,8 @@ details-disclosure > details {
     line-height: 1.3rem;
     text-align: center;
     margin: 0 auto;
+    position: relative;
+    top: -70px;
 }
 
 .section-template--16425776939263__1662517807d9785d55-padding .image-with-text__text-item p.subtitle{
@@ -3014,6 +3016,7 @@ details-disclosure > details {
 
 .section-template--16425776939263__1662517807d9785d55-padding a.button {
   background: url(https://cdn.shopify.com/s/files/1/0658/9648/1023/files/play-btn.png?v=1662616402);
+    position: relative;
     border: 0px none;
     width: 459px;
     height: 178px;
