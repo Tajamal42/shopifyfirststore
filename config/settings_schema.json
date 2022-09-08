@@ -8,7 +8,7 @@
     "theme_support_url": "https:\/\/support.shopify.com\/"
   },
   {
-    "name": "Background",
+    "name": "Background Image",
     "settings": [
       {
         "type": "image_picker",
@@ -77,11 +77,6 @@
         "id": "colors_background_1",
         "default": "#FFFFFF",
         "label": "t:settings_schema.colors.settings.colors_background_1.label"
-      },
-      {
-        "type": "color",
-        "id": "colors_transparent",
-        "label": "Background Transparent"
       },
       {
         "id": "gradient_background_1",
