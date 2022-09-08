@@ -197,6 +197,15 @@
         "padding_bottom": 36
       }
     },
+    "1662602308b00db095": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<iframe src=\"https:\/\/browcrush.private.gamify.com\/score\" style=\"border:0px #ffffff none;\" name=\"myiFrame\" scrolling=\"no\" frameborder=\"1\" marginheight=\"0px\" marginwidth=\"0px\" height=\"550px\" width=\"100%\" allowfullscreen><\/iframe>",
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "16625230831b23cad9": {
       "type": "image-banner",
       "blocks": {
@@ -255,6 +264,7 @@
     "1662517807d9785d55",
     "16625223587c9f8534",
     "1662521851b9562beb",
+    "1662602308b00db095",
     "16625230831b23cad9"
   ]
 }
