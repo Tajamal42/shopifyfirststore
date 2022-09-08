@@ -3004,8 +3004,16 @@ details-disclosure > details {
     margin: 0 auto;
 }
 
-.section-template--16425776939263__1662517807d9785d55-padding .image-with-text__text{
-  margin-top: 0rem;
+.section-template--16425776939263__1662517807d9785d55-padding .image-with-text__text-item p.subtitle{
+    font-size: 1.3rem;
+    width: 200px;
+    line-height: 1.3rem;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.section-template--16425776939263__1662517807d9785d55-padding a.button {
+  background:url('');
 }
 
 .section-template--16425776939263__16626050482bb36349-padding {
