@@ -2985,9 +2985,15 @@ details-disclosure > details {
     line-height: 38px;
 }
 
-.section-template--16425776939263__16626050482bb36349-padding .multicolumn-list__item:only-child {
-    max-width: 100%;
+.section-template--16425776939263__16626050482bb36349-padding {
+    padding: 0 0rem !important;
 }
+
+.section-template--16425776939263__16626050482bb36349-padding .multicolumn-list__item:only-child {
+    max-width: 100% !important;
+}
+
+
 
 
 
