@@ -206,57 +206,6 @@
         "padding_bottom": 0
       }
     },
-    "16625230831b23cad9": {
-      "type": "image-banner",
-      "blocks": {
-        "1662523083b08da20e-0": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "heading": "Image banner",
-            "heading_size": "h1"
-          }
-        },
-        "1662523083b08da20e-1": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
-          }
-        },
-        "1662523083b08da20e-2": {
-          "type": "buttons",
-          "disabled": true,
-          "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "1662523083b08da20e-0",
-        "1662523083b08da20e-1",
-        "1662523083b08da20e-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/LEAHFILE01.png",
-        "image_overlay_opacity": 0,
-        "image_height": "large",
-        "adapt_height_first_image": true,
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
     "16626050482bb36349": {
       "type": "multicolumn",
       "blocks": {
@@ -300,7 +249,7 @@
         "title": "",
         "heading_size": "h0",
         "image_width": "full",
-        "image_ratio": "adapt",
+        "image_ratio": "square",
         "columns_desktop": 1,
         "column_alignment": "center",
         "background_style": "none",
@@ -321,7 +270,6 @@
     "16625223587c9f8534",
     "1662521851b9562beb",
     "1662602308b00db095",
-    "16625230831b23cad9",
     "16626050482bb36349"
   ]
 }
