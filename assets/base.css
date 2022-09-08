@@ -2976,7 +2976,7 @@ details-disclosure > details {
 .section-template--16425776939263__1662517807d9785d55-padding .image-with-text__text-item{
   position: absolute !important;
   left: 0px;
-  width: 40%;
+  width: 35%;
 }
 
 .section-template--16425776939263__1662517807d9785d55-padding .image-with-text__text-item h2{
@@ -2985,6 +2985,7 @@ details-disclosure > details {
     line-height: 40px;
     letter-spacing: -1px;
     text-shadow: 0px 5px 0px #d1bfa1;
+    margin-bottom: 0.5rem;
 }
 
 .section-template--16425776939263__1662517807d9785d55-padding .image-with-text__text-item p{
