@@ -2968,7 +2968,7 @@ details-disclosure > details {
 #MainContent {
 	width:100%;
 	height: 100%;
-  background-image: url({{ section.settings.image_background | image_url }});
+  background-image: url({{ section.settings.image_background | img_url }});
 	background-repeat: no-repeat;
     background-size: cover;
 }
